@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1962E7229C04C600D8D479 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1962E6229C04C600D8D479 /* CarTableViewCell.swift */; };
+		AD1962E9229C0ECA00D8D479 /* FullList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1962E8229C0ECA00D8D479 /* FullList.swift */; };
+		AD9D2CD7229D331200F7DC94 /* DisplayCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D2CD6229D331200F7DC94 /* DisplayCarViewController.swift */; };
 		ADE24B862297ED450059602A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24B852297ED450059602A /* AppDelegate.swift */; };
 		ADE24B882297ED450059602A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24B872297ED450059602A /* ViewController.swift */; };
 		ADE24B8B2297ED450059602A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE24B892297ED450059602A /* Main.storyboard */; };
 		ADE24B8D2297ED460059602A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE24B8C2297ED460059602A /* Assets.xcassets */; };
 		ADE24B902297ED460059602A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE24B8E2297ED460059602A /* LaunchScreen.storyboard */; };
+		ADE24B9B2298034F0059602A /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24B982298034F0059602A /* SlideMenuController.swift */; };
+		ADE24B9C2298034F0059602A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADE24B9A2298034F0059602A /* Info.plist */; };
+		ADE24BA6229803EC0059602A /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24B9E229803EC0059602A /* UIDevice+Extension.swift */; };
+		ADE24BA7229803EC0059602A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24B9F229803EC0059602A /* UIColor+Extension.swift */; };
+		ADE24BA8229803EC0059602A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA0229803EC0059602A /* UIView+Extension.swift */; };
+		ADE24BA9229803EC0059602A /* Networking+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA1229803EC0059602A /* Networking+Extension.swift */; };
+		ADE24BAA229803EC0059602A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA2229803EC0059602A /* UIViewController+Extension.swift */; };
+		ADE24BAB229803EC0059602A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA3229803EC0059602A /* String+Extension.swift */; };
+		ADE24BAC229803EC0059602A /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA4229803EC0059602A /* UITableView.swift */; };
+		ADE24BAD229803EC0059602A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BA5229803EC0059602A /* UITextField+Extension.swift */; };
+		ADE24BAF229812EA0059602A /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE24BAE229812EA0059602A /* ReservationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1962E6229C04C600D8D479 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		AD1962E8229C0ECA00D8D479 /* FullList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullList.swift; sourceTree = "<group>"; };
+		AD9D2CD6229D331200F7DC94 /* DisplayCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCarViewController.swift; sourceTree = "<group>"; };
 		ADE24B822297ED450059602A /* Skurt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skurt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE24B852297ED450059602A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE24B872297ED450059602A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,18 @@
 		ADE24B8C2297ED460059602A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE24B8F2297ED460059602A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE24B912297ED460059602A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE24B982298034F0059602A /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		ADE24B992298034F0059602A /* SlideMenuControllerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuControllerSwift.h; sourceTree = "<group>"; };
+		ADE24B9A2298034F0059602A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE24B9E229803EC0059602A /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		ADE24B9F229803EC0059602A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BA0229803EC0059602A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BA1229803EC0059602A /* Networking+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Networking+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BA2229803EC0059602A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BA3229803EC0059602A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BA4229803EC0059602A /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		ADE24BA5229803EC0059602A /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		ADE24BAE229812EA0059602A /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +67,7 @@
 		ADE24B792297ED450059602A = {
 			isa = PBXGroup;
 			children = (
+				AD9D2CD6229D331200F7DC94 /* DisplayCarViewController.swift */,
 				ADE24B842297ED450059602A /* Skurt */,
 				ADE24B832297ED450059602A /* Products */,
 			);
@@ -58,10 +88,40 @@
 				ADE24B872297ED450059602A /* ViewController.swift */,
 				ADE24B892297ED450059602A /* Main.storyboard */,
 				ADE24B8C2297ED460059602A /* Assets.xcassets */,
+				AD1962E8229C0ECA00D8D479 /* FullList.swift */,
+				ADE24BAE229812EA0059602A /* ReservationViewController.swift */,
+				AD1962E6229C04C600D8D479 /* CarTableViewCell.swift */,
 				ADE24B8E2297ED460059602A /* LaunchScreen.storyboard */,
 				ADE24B912297ED460059602A /* Info.plist */,
+				ADE24B9D229803EC0059602A /* Extension */,
+				ADE24B972298034F0059602A /* SlideMenuControllerSwift */,
 			);
 			path = Skurt;
+			sourceTree = "<group>";
+		};
+		ADE24B972298034F0059602A /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				ADE24B982298034F0059602A /* SlideMenuController.swift */,
+				ADE24B992298034F0059602A /* SlideMenuControllerSwift.h */,
+				ADE24B9A2298034F0059602A /* Info.plist */,
+			);
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
+		ADE24B9D229803EC0059602A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADE24B9E229803EC0059602A /* UIDevice+Extension.swift */,
+				ADE24B9F229803EC0059602A /* UIColor+Extension.swift */,
+				ADE24BA0229803EC0059602A /* UIView+Extension.swift */,
+				ADE24BA1229803EC0059602A /* Networking+Extension.swift */,
+				ADE24BA2229803EC0059602A /* UIViewController+Extension.swift */,
+				ADE24BA3229803EC0059602A /* String+Extension.swift */,
+				ADE24BA4229803EC0059602A /* UITableView.swift */,
+				ADE24BA5229803EC0059602A /* UITextField+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE24B9C2298034F0059602A /* Info.plist in Resources */,
 				ADE24B902297ED460059602A /* LaunchScreen.storyboard in Resources */,
 				ADE24B8D2297ED460059602A /* Assets.xcassets in Resources */,
 				ADE24B8B2297ED450059602A /* Main.storyboard in Resources */,
@@ -135,8 +196,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE24BAA229803EC0059602A /* UIViewController+Extension.swift in Sources */,
+				ADE24BAB229803EC0059602A /* String+Extension.swift in Sources */,
+				AD1962E9229C0ECA00D8D479 /* FullList.swift in Sources */,
+				ADE24BA8229803EC0059602A /* UIView+Extension.swift in Sources */,
 				ADE24B882297ED450059602A /* ViewController.swift in Sources */,
+				ADE24BA9229803EC0059602A /* Networking+Extension.swift in Sources */,
+				ADE24BA6229803EC0059602A /* UIDevice+Extension.swift in Sources */,
+				AD1962E7229C04C600D8D479 /* CarTableViewCell.swift in Sources */,
+				AD9D2CD7229D331200F7DC94 /* DisplayCarViewController.swift in Sources */,
+				ADE24BAD229803EC0059602A /* UITextField+Extension.swift in Sources */,
+				ADE24B9B2298034F0059602A /* SlideMenuController.swift in Sources */,
+				ADE24BAC229803EC0059602A /* UITableView.swift in Sources */,
 				ADE24B862297ED450059602A /* AppDelegate.swift in Sources */,
+				ADE24BA7229803EC0059602A /* UIColor+Extension.swift in Sources */,
+				ADE24BAF229812EA0059602A /* ReservationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLN74SWWVZ;
 				INFOPLIST_FILE = Skurt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.etranzact.Skurt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLN74SWWVZ;
 				INFOPLIST_FILE = Skurt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.etranzact.Skurt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

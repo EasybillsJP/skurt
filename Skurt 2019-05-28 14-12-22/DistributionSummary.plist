@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Skurt.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>372FC0808E6F9593CFD2651753D15CC0A9D1004F</string>
+				<key>dateExpires</key>
+				<string>23/07/2019</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>CLN74SWWVZ.com.etranzact.Skurt</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>CLN74SWWVZ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>CLN74SWWVZ.com.etranzact.Skurt</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Skurt.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1117fee1-0250-4404-a970-3ee4fca69ed8</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>CLN74SWWVZ</string>
+				<key>name</key>
+				<string>eTranzact Global South Africa (PTY) Ltd</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
